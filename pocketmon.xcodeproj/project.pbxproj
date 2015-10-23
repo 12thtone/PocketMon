@@ -14,6 +14,7 @@
 		2C2437671BDA7AE800F86FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2437651BDA7AE800F86FDE /* LaunchScreen.storyboard */; };
 		2C2437721BDA7AE800F86FDE /* pocketmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437711BDA7AE800F86FDE /* pocketmonTests.swift */; };
 		2C24377D1BDA7AE800F86FDE /* pocketmonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24377C1BDA7AE800F86FDE /* pocketmonUITests.swift */; };
+		2C24378B1BDA7F1B00F86FDE /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C24378A1BDA7F1B00F86FDE /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2C2437781BDA7AE800F86FDE /* pocketmonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketmonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C24377C1BDA7AE800F86FDE /* pocketmonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketmonUITests.swift; sourceTree = "<group>"; };
 		2C24377E1BDA7AE800F86FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C24378A1BDA7F1B00F86FDE /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2C24375C1BDA7AE800F86FDE /* AppDelegate.swift */,
 				2C24375E1BDA7AE800F86FDE /* ViewController.swift */,
+				2C24378A1BDA7F1B00F86FDE /* pokemon.csv */,
 				2C2437601BDA7AE800F86FDE /* Main.storyboard */,
 				2C2437631BDA7AE800F86FDE /* Assets.xcassets */,
 				2C2437651BDA7AE800F86FDE /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				2C2437671BDA7AE800F86FDE /* LaunchScreen.storyboard in Resources */,
 				2C2437641BDA7AE800F86FDE /* Assets.xcassets in Resources */,
+				2C24378B1BDA7F1B00F86FDE /* pokemon.csv in Resources */,
 				2C2437621BDA7AE800F86FDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
