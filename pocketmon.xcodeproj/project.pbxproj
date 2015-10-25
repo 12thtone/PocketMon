@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C12C8ED1BDC1806008C975A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C8EC1BDC1806008C975A /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		2C12C8ED1BDC1806008C975A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C8EC1BDC1806008C975A /* Constants.swift */; };
 		2C24375D1BDA7AE800F86FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24375C1BDA7AE800F86FDE /* AppDelegate.swift */; };
 		2C24375F1BDA7AE800F86FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24375E1BDA7AE800F86FDE /* ViewController.swift */; };
 		2C2437621BDA7AE800F86FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2437601BDA7AE800F86FDE /* Main.storyboard */; };
@@ -15,11 +15,11 @@
 		2C2437671BDA7AE800F86FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2437651BDA7AE800F86FDE /* LaunchScreen.storyboard */; };
 		2C2437721BDA7AE800F86FDE /* pocketmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437711BDA7AE800F86FDE /* pocketmonTests.swift */; };
 		2C24377D1BDA7AE800F86FDE /* pocketmonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24377C1BDA7AE800F86FDE /* pocketmonUITests.swift */; };
-		2C24378B1BDA7F1B00F86FDE /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C24378A1BDA7F1B00F86FDE /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
-		2C24378E1BDA813A00F86FDE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24378D1BDA813A00F86FDE /* Pokemon.swift */; settings = {ASSET_TAGS = (); }; };
-		2C2437911BDA8A8B00F86FDE /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437901BDA8A8B00F86FDE /* PokeCell.swift */; settings = {ASSET_TAGS = (); }; };
-		2C2437931BDAB36C00F86FDE /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437921BDAB36C00F86FDE /* csv.swift */; settings = {ASSET_TAGS = (); }; };
-		2C2437981BDBD45800F86FDE /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437971BDBD45800F86FDE /* PokemonDetailVC.swift */; settings = {ASSET_TAGS = (); }; };
+		2C24378B1BDA7F1B00F86FDE /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C24378A1BDA7F1B00F86FDE /* pokemon.csv */; };
+		2C24378E1BDA813A00F86FDE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24378D1BDA813A00F86FDE /* Pokemon.swift */; };
+		2C2437911BDA8A8B00F86FDE /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437901BDA8A8B00F86FDE /* PokeCell.swift */; };
+		2C2437931BDAB36C00F86FDE /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437921BDAB36C00F86FDE /* csv.swift */; };
+		2C2437981BDBD45800F86FDE /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437971BDBD45800F86FDE /* PokemonDetailVC.swift */; };
 		883960257C01C919F5ADBD4D /* Pods_pocketmon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC65323619322709547CE6D8 /* Pods_pocketmon.framework */; };
 /* End PBXBuildFile section */
 

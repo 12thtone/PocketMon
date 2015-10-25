@@ -130,11 +130,6 @@ class Pokemon {
                     self._defense = "\(defense)"
                 }
                 
-                print(self._weight)
-                print(self._height)
-                print(self._attack)
-                print(self._defense)
-                
                 // The JSON dict's "types" is an array of dictionaries
                 // Key = String and Value = String
                 if let types = dict["types"] as? [Dictionary<String, String>] where types.count > 0 {
@@ -155,8 +150,6 @@ class Pokemon {
                     self._type = ""
                 }
                 
-                print(self._type)
-                
                 if let descArr = dict["descriptions"] as? [Dictionary<String, String>] where descArr.count > 0 {
                     
                     if let url = descArr[0]["resource_uri"] {
@@ -174,7 +167,6 @@ class Pokemon {
                                 if let description = descDict["description"] as? String {
                                     self._description = description
                                     
-                                    print(self._description)
                                 }
                                 
                             }
@@ -210,10 +202,6 @@ class Pokemon {
                                 if let level = evolutions[0]["level"] as? Int {
                                     self._nextEvolutionLvl = "\(level)"
                                 }
-                                
-                                print(self._nextEvolutionId)
-                                print(self._nextEvolutionText)
-                                print(self._nextEvolutionLvl)
                                 
                             }
                             
