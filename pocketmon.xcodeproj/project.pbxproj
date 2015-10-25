@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C12C8ED1BDC1806008C975A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C8EC1BDC1806008C975A /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
 		2C24375D1BDA7AE800F86FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24375C1BDA7AE800F86FDE /* AppDelegate.swift */; };
 		2C24375F1BDA7AE800F86FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24375E1BDA7AE800F86FDE /* ViewController.swift */; };
 		2C2437621BDA7AE800F86FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2437601BDA7AE800F86FDE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		2C2437911BDA8A8B00F86FDE /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437901BDA8A8B00F86FDE /* PokeCell.swift */; settings = {ASSET_TAGS = (); }; };
 		2C2437931BDAB36C00F86FDE /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437921BDAB36C00F86FDE /* csv.swift */; settings = {ASSET_TAGS = (); }; };
 		2C2437981BDBD45800F86FDE /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2437971BDBD45800F86FDE /* PokemonDetailVC.swift */; settings = {ASSET_TAGS = (); }; };
+		883960257C01C919F5ADBD4D /* Pods_pocketmon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC65323619322709547CE6D8 /* Pods_pocketmon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F104A4635B5B711AD2A2836 /* Pods-pocketmon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketmon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketmon/Pods-pocketmon.debug.xcconfig"; sourceTree = "<group>"; };
+		2C12C8EC1BDC1806008C975A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C2437591BDA7AE800F86FDE /* pocketmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C24375C1BDA7AE800F86FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C24375E1BDA7AE800F86FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		2C2437901BDA8A8B00F86FDE /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		2C2437921BDAB36C00F86FDE /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		2C2437971BDBD45800F86FDE /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		B9BF591E2DAD11D4191BFD8C /* Pods-pocketmon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketmon.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketmon/Pods-pocketmon.release.xcconfig"; sourceTree = "<group>"; };
+		EC65323619322709547CE6D8 /* Pods_pocketmon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketmon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883960257C01C919F5ADBD4D /* Pods_pocketmon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,8 @@
 				2C2437701BDA7AE800F86FDE /* pocketmonTests */,
 				2C24377B1BDA7AE800F86FDE /* pocketmonUITests */,
 				2C24375A1BDA7AE800F86FDE /* Products */,
+				D713558AEEC7CCF9C556555F /* Pods */,
+				47BE72E6494F3815C92EA021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				2C2437921BDAB36C00F86FDE /* csv.swift */,
+				2C12C8EC1BDC1806008C975A /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -180,6 +190,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		47BE72E6494F3815C92EA021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC65323619322709547CE6D8 /* Pods_pocketmon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D713558AEEC7CCF9C556555F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F104A4635B5B711AD2A2836 /* Pods-pocketmon.debug.xcconfig */,
+				B9BF591E2DAD11D4191BFD8C /* Pods-pocketmon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C2437811BDA7AE800F86FDE /* Build configuration list for PBXNativeTarget "pocketmon" */;
 			buildPhases = (
+				49BDE753A630C515C3FBFCE4 /* Check Pods Manifest.lock */,
 				2C2437551BDA7AE800F86FDE /* Sources */,
 				2C2437561BDA7AE800F86FDE /* Frameworks */,
 				2C2437571BDA7AE800F86FDE /* Resources */,
+				CF704B84167570AD335A8C22 /* Embed Pods Frameworks */,
+				FF9CD5201A8D59D884D8D6B1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,6 +337,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49BDE753A630C515C3FBFCE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF704B84167570AD335A8C22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketmon/Pods-pocketmon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9CD5201A8D59D884D8D6B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketmon/Pods-pocketmon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C2437551BDA7AE800F86FDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -316,6 +394,7 @@
 				2C24375F1BDA7AE800F86FDE /* ViewController.swift in Sources */,
 				2C24375D1BDA7AE800F86FDE /* AppDelegate.swift in Sources */,
 				2C2437981BDBD45800F86FDE /* PokemonDetailVC.swift in Sources */,
+				2C12C8ED1BDC1806008C975A /* Constants.swift in Sources */,
 				2C24378E1BDA813A00F86FDE /* Pokemon.swift in Sources */,
 				2C2437931BDAB36C00F86FDE /* csv.swift in Sources */,
 			);
@@ -457,6 +536,7 @@
 		};
 		2C2437821BDA7AE800F86FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F104A4635B5B711AD2A2836 /* Pods-pocketmon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -469,6 +549,7 @@
 		};
 		2C2437831BDA7AE800F86FDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BF591E2DAD11D4191BFD8C /* Pods-pocketmon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -546,6 +627,7 @@
 				2C2437831BDA7AE800F86FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2437841BDA7AE800F86FDE /* Build configuration list for PBXNativeTarget "pocketmonTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +636,7 @@
 				2C2437861BDA7AE800F86FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2437871BDA7AE800F86FDE /* Build configuration list for PBXNativeTarget "pocketmonUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +645,7 @@
 				2C2437891BDA7AE800F86FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
